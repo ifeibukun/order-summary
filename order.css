@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+body{
+    height: 120vh;
+    font-family: 'Outfit', sans-serif;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/pattern-background-mobile.svg);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 90%;
+    margin-left:19px ;
+}
+img{
+    width: 350px;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 170px;
+}
+.img-div{
+   
+}
+.icon-music{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.word-container{
+    background-color: rgb(243, 235, 235);
+    width: 350px;
+    height: 1000px;
+    text-align: center;
+    margin-top: -5px;
+    border-radius: 0px 0px 30px 30px;
+}
+.summary{
+    color: hsl(224, 23%, 42%);
+    font-size: 25px;
+    margin-top: 25px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.gap{
+    margin-top: 25px;
+    color: hsl(247, 13%, 75%);
+}
+.top{
+    color: hsl(247, 13%, 75%);
+}
+.main-flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 247);
+    margin-top:1.5rem ;
+    height: 60px;
+    margin-left: 24px;
+    width: 300px;
+    border-radius: 15px;
+}
+.small-flex{
+    display: flex;
+    flex-direction: column;
+    margin-left:-30px ;
+    font-weight: bolder;
+}
+.fade-colour{
+    color:hsl(247, 13%, 75%); 
+
+}
+.change{
+    margin-right: 20px;
+}
+.proceed{
+    margin-top: 50px;
+    background-color: hsla(244, 94%, 52%, 0.849);
+    width:300px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: hsla(244, 94%, 52%, 0.849) ;
+    box-shadow: 4px 5px hsla(244, 94%, 52%, 0.849) 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.order{
+    color:hsl(247, 13%, 75%);
+    border-radius: 10px;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 0px;
+}
+.order:hover{
+    color: hsla(244, 94%, 52%, 0.849) ;
+}
+.Cancel{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+@media (min-width:1000px) {
+    .container{
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    body{
+        height: 60vh;
+        width: 100vw;
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+ }
+
